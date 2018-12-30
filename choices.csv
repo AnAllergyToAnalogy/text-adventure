@@ -1,0 +1,16 @@
+Situation ID,Situation Text,Choice 1 Text,to ID,Choice Text 2,to ID
+start,You are walking down the street and everyone is speaking Chinese. You don't speak Chinese. ,Strip off and run,strip_off_run,Go into the nearest shop,into_shop
+into_shop,It's a noodle shop and the menu is in Chinese. ,Pick up some chopsticks,pickup_stick,Exclaim Udon my Udon,exclaim_udon
+exclaim_udon,Everyone stops what they're doing and stares at you.,,,,
+strip_off_run,You realise you're embarrassed so you jump into a fountain. ,Try to catch a goldfish,catch_goldfish,Collect all the coins,end_worst_way
+catch_goldfish,You catch a goldfish and you swallow it live.,Pose for a photo,end_worst_way,Vomit it back up,vomit_fish
+vomit_fish,The goldfish is in pieces and there is a watch inside.,You try and read the watch,read_watch,Look for a beggar to give the watch,end_worst_way
+read_watch,"You notice that the watch has an address on the back, and you are surprised that it is written in English",You become distracted by your saturated nudity,saturated_nudity,You trudge on despite your exhibitionist condition,end_worst_way
+saturated_nudity,"You attempt to stop a passer by in hope that she will help you cover up. However , she screams and pushes you back! You stumble and fall, snapping your neck as you hit the bottom of the fountain. There you lay, saturated in your naked blood, dead, whilst onlookers laugh and point.",,,,
+pickup_stick,You pick up the chopsticks and put them in your mouth like a walrus. You start to act like a walrus to the extent that the resteraunteur thinks you are a walrus. He advances toward you with a knife.,You fight back,fight_back,You smile and say Nihao,ni_hao
+fight_back,"Suddenly, you remember that you know Krav Maga. You disarm the resteraunteur immediately and smile wickedly with the chopsticks still protruding from your mouth",Take a seat,take_seat,Strip off and run,strip_off_run
+take_seat,"You take a seat at the nearest table, and order from the menu.",Order the first item,end_worst_way,Order the fourth item,walrus_meal
+walrus_meal,"Not knowing what you're doing, you point at the fourth item on the menu, in hope that the restauranteur will know what you are doing. Still terrified from your impressive display of Israeli self-defence, he hurridly backs away to the kitchen. After a few minutes, he returns to the table with a fried dish in his hand and says ""Walrus""",Take a bite,end_worst_way,Strip off and run,strip_off_run
+ni_hao,"The restuaranteur is impressed with your attemps at Chinese, and offers you a seat",Take a seat,take_seat,Strip off and run,strip_off_run
+end_worst_way,"Everyone far and wide realises that you are not one of them, an enormous engraged mob descends upon you, ripping you limb for limb, your screams of despair and drowned out by the chanting of them all ""Die Naked Man!""",,,,
+end,That's the end.,,,,

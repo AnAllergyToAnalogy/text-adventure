@@ -1,0 +1,11 @@
+Situation ID,Situation Text,Choice 1 Text,to ID,Choice Text 2,to ID
+start,There is a hat in front of you.,Wear the hat,1,Eat the hat,2
+1,The hat explodes.,Look for a new hat,look,Go to bed,sleep
+2,The hat is delicious. Now there is a spider somewhere.,Look for the spider,spider,Go to bed,sleep
+end,That's all folks.,,,,
+look,You look for a new hat. You only find spiders.,Kill the spiders,spiders,Eat the spiders,eat_spiders
+sleep,You sleep for 8 hours. When you wake up there are spiders around.,Jump out the window,fall,Kill the spiders,spiders
+spider,You find the spider and there is a nest of them. They are big and spidery.,Jump out the window,fall,Kill the spiders,spiders
+spiders,You kill all the spiders. As the final spider is dying he crowns you king of the spiders.,,,,
+fall,You fall to your death. ,,,,
+eat_spiders,You eat them and you die of spider poison.,,,,
