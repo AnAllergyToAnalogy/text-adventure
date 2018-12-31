@@ -1,16 +1,68 @@
 Situation ID,Situation Text,Choice 1 Text,to ID,Choice Text 2,to ID
-start,You are walking down the street and everyone is speaking Chinese. You don't speak Chinese. ,Strip off and run,strip_off_run,Go into the nearest shop,into_shop
+start,You are walking down the street and everyone is speaking Chinese. You don't speak Chinese. ,Strip off and run,strip_off_run,Go into nearest shop,into_shop
 into_shop,It's a noodle shop and the menu is in Chinese. ,Pick up some chopsticks,pickup_stick,Exclaim Udon my Udon,exclaim_udon
-exclaim_udon,Everyone stops what they're doing and stares at you.,,,,
-strip_off_run,You realise you're embarrassed so you jump into a fountain. ,Try to catch a goldfish,catch_goldfish,Collect all the coins,end_worst_way
-catch_goldfish,You catch a goldfish and you swallow it live.,Pose for a photo,end_worst_way,Vomit it back up,vomit_fish
-vomit_fish,The goldfish is in pieces and there is a watch inside.,You try and read the watch,read_watch,Look for a beggar to give the watch,end_worst_way
-read_watch,"You notice that the watch has an address on the back, and you are surprised that it is written in English",You become distracted by your saturated nudity,saturated_nudity,You trudge on despite your exhibitionist condition,end_worst_way
+exclaim_udon,Everyone stops what they're doing and stares at you.,Strip off and run,strip_off_run,Explain yourself,explain_self
+strip_off_run,You realise you're embarrassed so you jump into a fountain. ,Catch a goldfish,catch_goldfish,Collect all the coins,collect_coins
+catch_goldfish,You catch a goldfish and you swallow it live.,Pose for a photo,pose_photo,Vomit it back up,vomit_fish
+vomit_fish,The goldfish is in pieces and there is a watch inside.,Try to read the watch,read_watch,Give to a beggar,look_beggar
+read_watch,"You notice that the watch has an address on the back, and you are surprised that it is written in English",Become distracted by your saturated nudity,saturated_nudity,Trudge on despite your exhibitionist condition,trudge_on
 saturated_nudity,"You attempt to stop a passer by in hope that she will help you cover up. However , she screams and pushes you back! You stumble and fall, snapping your neck as you hit the bottom of the fountain. There you lay, saturated in your naked blood, dead, whilst onlookers laugh and point.",,,,
-pickup_stick,You pick up the chopsticks and put them in your mouth like a walrus. You start to act like a walrus to the extent that the resteraunteur thinks you are a walrus. He advances toward you with a knife.,You fight back,fight_back,You smile and say Nihao,ni_hao
+pickup_stick,You pick up the chopsticks and put them in your mouth like a walrus. You start to act like a walrus to the extent that the resteraunteur thinks you are a walrus. He advances toward you with a knife.,Fight back,fight_back,Smile and say Nihao,ni_hao
 fight_back,"Suddenly, you remember that you know Krav Maga. You disarm the resteraunteur immediately and smile wickedly with the chopsticks still protruding from your mouth",Take a seat,take_seat,Strip off and run,strip_off_run
-take_seat,"You take a seat at the nearest table, and order from the menu.",Order the first item,end_worst_way,Order the fourth item,walrus_meal
-walrus_meal,"Not knowing what you're doing, you point at the fourth item on the menu, in hope that the restauranteur will know what you are doing. Still terrified from your impressive display of Israeli self-defence, he hurridly backs away to the kitchen. After a few minutes, he returns to the table with a fried dish in his hand and says ""Walrus""",Take a bite,end_worst_way,Strip off and run,strip_off_run
+take_seat,"You take a seat at the nearest table, and order from the menu.",Order the first item,pizza_meal,Order the fourth item,walrus_meal
+walrus_meal,"Not knowing what you're doing, you point at the fourth item on the menu, in hope that the restauranteur will know what you are doing. He hurridly backs away to the kitchen. After a few minutes, he returns to the table with a fried dish in his hand and says ""Walrus""",Take a bite,bite_walrus,Strip off and run,strip_off_run
 ni_hao,"The restuaranteur is impressed with your attemps at Chinese, and offers you a seat",Take a seat,take_seat,Strip off and run,strip_off_run
 end_worst_way,"Everyone far and wide realises that you are not one of them, an enormous engraged mob descends upon you, ripping you limb for limb, your screams of despair and drowned out by the chanting of them all ""Die Naked Man!""",,,,
 end,That's the end.,,,,
+explain_self,"You try to explain what you meant by ""Udon my Udon"", but your lack of ability to speak Chinese and the fact that Udon noodles are Japanese just lead to further confusion. Everyone in the room continues to stare at you.",Stand there awkwardly,stand_awkward,Look around,udon_look_around
+stand_awkward,You stand there awkwardly. It is painfully quiet. Someone at the back of the room coughs…,Strip off and run,strip_off_run,Smack your lips,udon_smack_lips
+udon_look_around,You look around and notice that everyone in the restaurant has sharp pointy teeth. They are licking their lips.,Leave the restaurant,leave_restaurant,Try to fit in,lizard_fit_in
+udon_smack_lips,"You smack your lips, look at the ceiling and start to whistle.",Inhale,udon_inhale,,
+udon_inhale,You inhale.,Exhale,udon_exhale,,
+udon_exhale,"You begin to exhale and suddenly the front window of the shop crashes inwards with a loud bang, sending glass and debris flying everywhere. Five ninja-walruses jump through the door and charge at you.",Fight,ninja_fight,Strip off and run,strip_off_run
+look_beggar,You notice a small man (or is it a chimp?) wearing nothing but a coat.,Use sign language,sign_chimp,Punch him,punch_chimp
+sign_chimp,You attempt to use sign language to communicate with the man (chimp?). He appears either not to understand you or not to  want the watch.,Punch him,punch_chimp,Attempt to take the coat,take_coat_chimp
+punch_chimp,"You punch the man (chimp?) in the face. He reacts swiftly, with lightning fast reflexes that only a chimp would have. The man is indeed a chimp. He is angry and he begins to claw at you and beat you with his large chimp fists.",Fight offensive,chimp_offensive,Fight defensive,chimp_defensive
+chimp_offensive,"You swing at the chimp again, but he grabs your arm and rips it off. You begin to bleed everywhere, writhing in pain on the ground. You now only have one good arm.",Punch with other arm,chimp_punch_2,Kick him,chimp_kick
+chimp_punch_2,"You swing with your other arm, but the chimp catches that too, and rips it off. You now have no arms. The chimp jumps on your back.",Bite him,chimp_bite_him,,
+chimp_bite_him,"You try to bite the chimp, but he bites you first. The last thing you remember is having your neck bitten off. You bleed out painfully in the street. The chimp has stolen the watch. You are dead.",,,,
+chimp_kick,You attempt to kick him but you miss. He grabs your foot and starts trying to rip your shoe off.,Let him take it,chimp_give_shoe,Kick harder,chimp_kick_2
+chimp_kick_2,You try to kick him harder but he grabs your leg and rips it off. All your guts get ripped out with it. He jumps on your face and rips that off too. You die of chimp-related injuries.,,,,
+chimp_give_shoe,"You let the chimp take the shoe, and this appeases him. He stands tall like a man and announces that he is the great and mystical Dr Chimpanzeria. He is a noble man of science whose experiements turned him into a chimp. He offers to sew your arm back on if you give him the watch.",Demand coat aswell,chimp_demand_coat,Accept offer,chimp_accept
+temp_end,This is a temporary endpoint.,,,,
+take_coat_chimp,"You attempt to take the coat off the man (chimp?) and he looks you square in the eye and says ""Don't try that again or I'll send you to your grave"".",Try again,chimp_try_again,Appologise,chimp_appologise
+chimp_try_again,You try to take the coat again and this time the man (chimp?) grabs your arm and rips it off. This is very painful.,Punch with other arm,chimp_punch_2,,
+chimp_appologise,You appologise to the apparently english-speaking chimp. ,,,,
+chimp_defensive,"You sheild yourself with your arms, but the chimp begins screaming and trying to scratch you.",Run away,chimp_run,Poke his eyes,chimp_poke
+chimp_run,"You quickly run backwards away from the chimp, ducking around the corner into a crowded market.",,,,
+chimp_poke,"You poke the chimp in the eyes and he stumbles backwards. ""Ouch me damn eyes!"" he screams. ",Appologise,chimp_appologise,Run away,chimp_run
+collect_coins,"You begin gathering all the coins in the fountain, soon you have many million Chinese dollars.",Find a clothes shop,find_clothes,Throw back in fountain,throw_fountain
+pose_photo,"Chinese tourists are surrounding the fountain taking photos, so you begin to pose for them. Some of them upload it to Instagram. ",Yell at them,yell_no_reason,Ask for money,ask_money_photos
+bite_walrus,"You take a bite of the walrus, it is delicious. ",,,,
+ninja_fight,"One of the ninjas jumps at you, but you duck and do a backwards kick sending him high into the ceiling. Two more are running from either side.",Throw plates,ninja_plates,Throw knives,ninja_knives
+ninja_plates,You grab some plates and throw them in either direction. The two oncoming ninjas block the blow but the shrapnel and dust gets in their eyes and they trip and stab eachother in the throat. The remaining two ninjas are loading a cannon with fireworks and facing it at you.,Throw more plates,ninja_plates_2,Duck and cover,ninja_duck
+ninja_knives,"You grab some knives from a nearby table and throw them at the two ninjas. But they deflect the knives and bare down on you. One of them stabs you in the head and the other one stabs you in the groin. It is very painful. You notice that he other ninjas have loaded a cannon with fireworks, and they fire it at you. You explode and burn to death. ",,,,
+ninja_plates_2,"You throw more plates at the cannon-ninjas, but they just shoot you with the cannon. Fireworks and for some reason eels land on your face, and you are stung and burnt to death.",,,,
+ninja_duck,"You duck from the ninjas, hiding under a table. As you do this, the cannon goes off, blasting a hole in the back of the restaurant. The owner charges out with a loaded revolver, and shoots both ninjas in the head. He bows and appologises you for the unintended interruption to your restaurant visit, and offers to give you a free meal of your choice. He gestures to a nearby table.",Take a seat,take_seat,Leave the restaurant,leave_restaurant
+leave_restaurant,"You attempt to leave the restaurant, but an angry looking chimpanzee in a coat blocks your exit.",Punch him,punch_chimp,Take a seat,take_seat
+trudge_on,"You trudge on, very aware of the fact that you have no clothes. People all around you are staring. You look around at street signs but realise they are all in Chinese.",Ask for help,ask_help_trudge,Find a clothes shop,find_clothes
+ask_help_trudge,"You assail a nearby Chinese man and ask him for help finding this address. He seems confused until you read the address, at which point he seems to understand your words and points to a large imperial castle at the top of a hill.",Go to castle,go_castle,Yell for no reason,end_worst_way
+find_clothes,You search the city streets for a few minutes until you find a clothes shop. They only have spiderman costumes and hula skirts.,Spiderman costume,get_clothes,Hula skirt,get_clothes
+get_clothes,"Your new clothes aren't exactly inconspicuous, but at least you aren't naked anymore.",Leave the shop,leave_clothes,,
+leave_clothes,You leave the shop and continue looking for the address,Go uphill,go_uphill,Go downhill,go_downhill
+go_downhill,"You walk downhill, it gets darker and colder and wetter. The people down here are strange and creepy. ",Yell for no reason,yell_no_reason,Go uphill instead,go_uphill
+pizza_meal,"Completely unware of what you're ordering, you point at the first item on the menu, hoping it won't be too gross. You're surprised to discover that it's pizza. But pizza with pineapple.",Eat pizza,eat_pizza,,
+eat_pizza,You eat the pizza. It is cold and oily. But at least you aren't dead.,,,,
+go_uphill,"You walk uphill, and as you do you notice a large imperial castle at the top of the hill.",Go to castle,go_castle,Yell for no reason,yell_no_reason
+yell_no_reason,"Your yelling awakens the heavens and a ten kilotonne block of ice descends from the heavens and crushes you. You are now an ice pancake, and dead.",,,,
+lizard_fit_in,"You try to act natural, but one of the monstrous restaurant patrons grabs you from behind and starts to hiss.",Scream for help,scream_help_lizard,Punch him,punch_lizard
+scream_help_lizard,"You scream for help. This draws attention from everyone around you, and they are all lizard people. They surround you",Look for an exit,look_exit_lizard,Accept fate,lizard_die
+punch_lizard,You flail at your assailant but he licks you with his lizard tongue. ,Scream for help,scream_help_lizard,Look for an exit,look_exit_lizard
+go_castle,You walk up to the top of the hill to the giant castle that sits there.  As you arrive at the gate you are greeted by a caterpillar in a sleeping bag.,,,,
+throw_fountain,"You throw the coins in the fountain, you are now coinless and naked in a fountain again.",Catch a goldfish,catch_goldfish,Collect all the coins,collect_coins
+ask_money_photos,The Chinese people begin throwing Chinese dollars and cents at you and you continue to pose. ,Collect the coins,collect_coins,,
+chimp_demand_coat,"You demand that the scientist give you his coat, but he only has greedy eyes for the watch so happily oblidges.",,,,
+chimp_accept,You accept the offer and the scientist leads you back to his lab.,,,,
+look_exit_lizard,"You franticly look around for an exit, and notice a trapdoor beneath your feet, and an ""Open Trapdoor"" button next to it.",Press button,lizard_button,Accept fate,lizard_die
+lizard_die,You accept your fate as you are eaten to death by lizard people. They serve you for lunch to their lizard friends.,,,,
+lizard_button,You press the button and fall to your freedom into a dark cavern. You splash into a body of water but can't see anything. You hear the distinct sound of bees coming from somewhere in this cavern. There are eels in the water.,,,,

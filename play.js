@@ -118,7 +118,7 @@ let title = [
     '################################################################################',
     '###                                                                          ###',
     '###                                                                          ###',
-    '###          Welcome to the text Adventure game!                             ###',
+    '###          Welcome to the Text Adventure game!                             ###',
     '###                                                                          ###',
     '###             All events and choices are defined in choices.csv            ###',
     '###                                                                          ###',
@@ -138,7 +138,7 @@ function Show_title(){
 
     let window_width = process.stdout.columns;
     let padding = '';
-    for(i = 0; i < Math.round((window_width - text_width)/2); i++){
+    for(let i = 0; i < Math.round((window_width - text_width)/2); i++){
         padding += ' ';
     }
 
@@ -283,7 +283,7 @@ function log_broken_centered(text,maxWidth){
 
 function get_extraPadding(targetWidth,currentWidth){
     let padding = '';
-    for(i = 0; i < (targetWidth - currentWidth)/2; i++){
+    for(let i = 0; i < (targetWidth - currentWidth)/2; i++){
         padding += ' ';
     }
     return padding;
@@ -330,6 +330,8 @@ function Prompt_End(){
     log_broken_centered(" Press enter to exit... ",80);
 
     rl.question('', (answer) => {
+        clear_screen();
+        console.log(" Game created by AnAllergyToAnalogy ");
         rl.close();
     });
 
