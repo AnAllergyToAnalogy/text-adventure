@@ -301,7 +301,16 @@ function Prompt_Situation(situation){
         terminal: false
     });
 
-    rl.question('', (answer) => {
+    let window_width = process.stdout.columns;
+    let padding = '';
+    for(let i = 0; i < Math.round((window_width - text_width)/2); i++){
+        padding += ' ';
+    }
+
+    console.log('');
+    console.log('');
+
+    rl.question(padding, (answer) => {
         rl.close();
         //Parse the answer
         if(answer.toLowerCase() === situation.a.label.toLowerCase()){
