@@ -52,7 +52,7 @@ A user chooses to `Take a coin`, the game will look at the `to ID` column next t
 
 `take_coin`,`You take the coin, it's very shiny.`,`Put in pocket`,`pocket_coin`,`Throw away`,`throw_coin`.
 
-You can provide only one choice for a given situation, and the game is cool with that. The user still has to type it in to proceed to the next situation though.
+If you want to, you can provide only one choice for a given situation, and the game is cool with that. The user still has to type it in to proceed to the next situation though.
 
 #### Unique Situations
 If you want the game to end at a certain point, either by winning or losing, just create a situation without any choices. 
